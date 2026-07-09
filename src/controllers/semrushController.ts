@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { logger } from '../utils/logger';
+import { logger } from '@enekwe/icon-radar-shared';
 import { semrushService } from '../services/semrushService';
 
 export const getDomainOverview = async (req: Request, res: Response): Promise<void> => {

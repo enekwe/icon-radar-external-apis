@@ -1,5 +1,5 @@
 import rateLimit from 'express-rate-limit';
-import { logger } from '../utils/logger';
+import { logger } from '@enekwe/icon-radar-shared';
 
 export const apiRateLimiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes

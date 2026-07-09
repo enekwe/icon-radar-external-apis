@@ -1,4 +1,4 @@
-import { logger } from './logger';
+import { logger } from '@enekwe/icon-radar-shared';
 
 interface RateLimitConfig {
   maxRequests: number;

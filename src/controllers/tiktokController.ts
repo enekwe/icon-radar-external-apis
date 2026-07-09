@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { logger } from '../utils/logger';
+import { logger } from '@enekwe/icon-radar-shared';
 import { tiktokService } from '../services/tiktokService';
 
 export const getUser = async (req: Request, res: Response): Promise<void> => {

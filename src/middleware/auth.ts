@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from 'express';
-import { logger } from '../utils/logger';
+import { logger } from '@enekwe/icon-radar-shared';
 
 export function requireServiceAuth(req: Request, res: Response, next: NextFunction): void {
   const apiKey = req.headers['x-service-api-key'] as string;

@@ -1,5 +1,5 @@
 import axios, { AxiosInstance } from 'axios';
-import { logger } from '../utils/logger';
+import { logger } from '@enekwe/icon-radar-shared';
 import { CircuitBreaker } from '../utils/circuitBreaker';
 import { CacheManager } from '../utils/cache';
 import { RateLimiter } from '../utils/rateLimiter';
