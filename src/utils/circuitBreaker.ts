@@ -1,4 +1,4 @@
-import { logger } from '@icon-radar/shared';
+import { logger } from './logger';
 import { CircuitBreakerStats } from '../types';
 
 export class CircuitBreaker {

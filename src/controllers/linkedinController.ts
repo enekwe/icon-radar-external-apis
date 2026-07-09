@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { logger } from '@icon-radar/shared';
+import { logger } from '../utils/logger';
 import { linkedinService } from '../services/linkedinService';
 
 export const getCompany = async (req: Request, res: Response): Promise<void> => {

@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { logger } from '@icon-radar/shared';
+import { logger } from '../utils/logger';
 import { crunchbaseService } from '../services/crunchbaseService';
 import { z } from 'zod';
 

@@ -1,5 +1,5 @@
 import Redis from 'ioredis';
-import { logger } from '@icon-radar/shared';
+import { logger } from './logger';
 
 export class CacheManager {
   private redis: Redis;

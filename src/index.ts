@@ -1,7 +1,10 @@
 import express, { Request, Response } from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
-import { logger, correlationId, requestLogger, errorHandler } from '@icon-radar/shared';
+import { logger } from './utils/logger';
+import { correlationId } from './middleware/correlationId';
+import { requestLogger } from './middleware/requestLogger';
+import { errorHandler } from './middleware/errorHandler';
 import { apiRateLimiter } from './middleware/rateLimiter';
 import crunchbaseRoutes from './routes/crunchbase';
 import metaRoutes from './routes/meta';

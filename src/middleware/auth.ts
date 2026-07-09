@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from 'express';
-import { logger } from '@icon-radar/shared';
+import { logger } from '../utils/logger';
 
 export function requireServiceAuth(req: Request, res: Response, next: NextFunction): void {
   const apiKey = req.headers['x-service-api-key'] as string;

@@ -1,5 +1,5 @@
 import axios, { AxiosInstance } from 'axios';
-import { logger } from '@icon-radar/shared';
+import { logger } from '../utils/logger';
 import { CircuitBreaker } from '../utils/circuitBreaker';
 import { CacheManager } from '../utils/cache';
 import { RateLimiter } from '../utils/rateLimiter';
